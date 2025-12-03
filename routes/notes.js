@@ -3,7 +3,7 @@ var router = express.Router();
 
 // 接続情報を設定
 const { MongoClient } = require("mongodb");
-const uri = "";
+const uri = "mongodb+srv://2201100036:natuyasumi5176@cluster0.kp1ld0r.mongodb.net/?appName=Cluster0";
 const client = new MongoClient(uri);
 
 router.get('/', async (req, res) => {
